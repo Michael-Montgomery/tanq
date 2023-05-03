@@ -289,3 +289,67 @@ summary:hover {
     color: white;
     font-family: 'Gruppo', cursive;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+    #welcome-image {
+        background-image: url('https://images.unsplash.com/photo-1543007630-9710e4a00a20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
+        height: 80vh;
+        filter: grayscale(100%);
+    }
+
+    #welcome-image h1 {
+        font-size: 3.4em;
+        
+    }
+
+    #welcome-sub {
+        font-size: .8em;
+    }
+
+    #down-arrow {
+        font-size: 5em;
+    }
+
+    #about-wrapper h2 {
+        font-size: 2em;
+    }
+
+    #about-wrapper p {
+        font-size: 1.4em;
+    }
+
+    #features-wrapper ul {
+        text-align: center;
+        padding-left: none !important
+        /* margin-left: none; */
+    }
+
+    .feature-wrapper {
+        width: 90vw;
+        margin-bottom: 5px;
+    }
+
+    #social-divs-wrapper {
+        height: 150px;
+    }
+
+    #social-div-text {
+        font-size: 2.5em;
+        margin-top: 0;
+        vertical-align: initial;    
+    }
+}
