@@ -71,6 +71,46 @@ html {
 
 
 
+  #connect-left {
+    height: 20vh;
+    background-color: black;
+}
+
+#connect-left h2 {
+    color: white;
+    line-height: 20vh;
+    text-align: center;
+    font-size: 3em;
+}
+
+#connect-right {
+    height: 20vh;
+    padding-top: 5vh;
+}
+
+#connect-right ul {
+    text-align: center;
+    list-style-type: none;
+    
+}
+
+#connect-right ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+#connect-right ul li div {
+    display: inline-block;
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#connect-right ul li div a {
+    font-size: 4.5em;
+    color: white;
+}
 
 
 
@@ -131,7 +171,7 @@ header nav a {
 
 
 #about-wrapper {
-    padding: 0 20px;
+    padding: 20px;
 }
 
 #about-wrapper h2 {
@@ -303,7 +343,7 @@ summary:hover {
 
 
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
 
     #welcome-image {
         background-image: url('https://images.unsplash.com/photo-1543007630-9710e4a00a20?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YmFyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
@@ -324,12 +364,17 @@ summary:hover {
         font-size: 5em;
     }
 
+    #about-wrapper {
+        padding-top: 25px;
+    }
+
     #about-wrapper h2 {
         font-size: 2em;
     }
 
     #about-wrapper p {
         font-size: 1.4em;
+
     }
 
     #features-wrapper ul {
@@ -339,7 +384,7 @@ summary:hover {
     }
 
     .feature-wrapper {
-        width: 90vw;
+        width: 80vw;
         margin-bottom: 5px;
     }
 
@@ -348,8 +393,34 @@ summary:hover {
     }
 
     #social-div-text {
-        font-size: 2.5em;
+        font-size: 1.7em;
         margin-top: 0;
-        vertical-align: initial;    
+        vertical-align: initial;
+        text-align: center;
+    }
+
+    #social-icons-wrapper ul li {
+        /* margin-bottom: 15px; */
+        vertical-align: auto;
+        line-height: 5px;
+    }
+    
+    #social-icons-wrapper ul li a {
+        color: white;
+        font-size: 1.6em;
+    }
+
+    #connect-left h2 {
+        font-size: 1.5em;
+    }
+
+    #connect-right ul li div {
+        height: 75px;
+        width: 75px;
+
+    }
+
+    #connect-right ul li div a {
+        font-size: 3em;
     }
 }
